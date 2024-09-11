@@ -1,0 +1,33 @@
+{  
+    "FILE_PATH": "data/raw_data/Bullet/20_June_Exp2_handler/",
+
+    "RESAMPLE_TIME_TO_PHASE" : false,
+
+    "STEREO_CONFIG" : {
+        "FX_DEPTH" : 952.828,
+        "FY_DEPTH" : 952.828,
+        "CX_DEPTH" : 646.699,
+        "CY_DEPTH" : 342.637 
+    },
+
+    "RANGE_CONFIG" : {
+        "RANGE_PAD"             : 416
+    },
+
+    "DOPPLER_CONFIG" : {
+        "DOPPLER_PAD"           : 96
+    },
+
+    "AZIMUTH_CONFIG" : {
+        "AZIMUTH_PAD"           : 56
+    },
+
+    "CFAR_CONFIG" : {
+        "RNG_GUARD_CELLS"       : 1,
+        "RNG_TRAINING_CELLS"    : 1,
+        "DOP_GUARD_CELLS"       : 2,
+        "DOP_TRAINING_CELLS"    : 2,
+        "PFA"                   : 10e-2,
+        "THRESHOLD"             : -8   
+    }
+}
